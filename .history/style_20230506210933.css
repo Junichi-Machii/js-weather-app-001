@@ -1,0 +1,17 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: hsl(200, 100%, 85%);
+  color: hsl(200, 100%, 10%High);
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header class="geader">
+      <div class="header-left">
+        <?php if ( get_field('field_name') ) : ?>
+          <img src="<?php the_field('field_name'); ?>" alt="<?php the_field(''); ?>">
+        <?php endif; ?>
+        
+      </div>
+      <div class="header-right"></div>
+    </header>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

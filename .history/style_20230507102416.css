@@ -79,7 +79,7 @@ body {
 ======================================================*/
 
 .day-section {
-  display: grid;
+  display: fglex;
   grid-template-columns: repeat(auto-fit, 75px);
   gap: .5rem;
   justify-content: center;
